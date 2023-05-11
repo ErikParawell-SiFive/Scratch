@@ -1,0 +1,4 @@
+[repositories]
+local
+my-ivy-proxy-releases: https://artifactory.internal.sifive.com/artifactory/sbt-remote/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+my-maven-proxy-releases: https://artifactory.internal.sifive.com/artifactory/sbt-remote/
