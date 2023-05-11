@@ -7,6 +7,8 @@ lazy val root = project
   .settings(
     name := "scala3-example-project",
     description := "Example sbt project that compiles using Scala 3",
+    resolvers ++= Resolver.sonatypeOssRepos("snapshots"),
+    resolvers ++= Resolver.sonatypeOssRepos("releases"),
     version := "0.1.0",
     scalaVersion := "3.2.2",
     scalacOptions ++= Seq("-deprecation"),
